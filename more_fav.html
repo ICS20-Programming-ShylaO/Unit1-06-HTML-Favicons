@@ -1,1 +1,69 @@
 <!DOCTYPE html>
+<!-- Unit1-06-HTML-Favicons -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="My second web page using a favicon">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Shyla Oommen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- For the favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_more/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_more/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_more/favicon-16x16.png">
+    <link rel="manifest" href="./fav_more/site.webmanifest">
+
+    <!-- To Use Google's MDL -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-deep_orange.min.css" />
+    <title>My Second Web Page, With a Favicon</title>
+  </head>
+  <body>
+    <!-- To Use Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <!-- Web Page Header -->
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">My Second Web Page, with a Favicon</span>
+        </div>
+      </header>
+
+      <!-- Container for web page content -->
+      <main class="mdl-layout__content" style="padding-left: 20px;">
+
+        <h3>See another favicon in the browser tab above.</h3>
+
+        <!-- My div tag with an id -->
+        <div id="hello-world">My favicon for this web page are some flowers because I like flowers, particularly &lt;hyacinths&gt;.</div>
+        
+        <!-- Textfield with Floating Label -->
+        <br>
+        <p><b>What is your favourite flower?</b></p>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="sample3">
+            <label class="mdl-textfield__label" for="sample3">Fav. Flower</label>
+          </div>
+        </form>
+
+        <!-- Radio Button -->
+        <p>Do you like flowers?</p>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+          <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+          <span class="mdl-radio__label">Yes</span>
+        </label>
+        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+          <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+          <span class="mdl-radio__label">No</span>
+        </label>
+      </main>
+    </div>
+  </body>
+</html>
+      
